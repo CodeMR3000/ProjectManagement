@@ -1,5 +1,6 @@
 # ProjectManagement
 # (Micro Project Work Assigned by Login2Xplore)
+## By Manish Raj
 This work involves designing a project management form that will store data in the "PROJECT-TABLE" relation of the "COLLEGE-DB" database. The form will have several input fields to capture relevant information about a project.
 
 ## The UI of the project:
