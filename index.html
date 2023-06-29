@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Management Form</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Project Management Form</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Project ID</span>
+                        <input type="text" id="projectId" placeholder="Enter project ID"  onchange="getProject()">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Project Name</span>
+                        <input type="text" id="projectName" placeholder="Enter project name">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Assigned To</span>
+                        <input type="text" id="assignTo" placeholder="Enter assigned person" >
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Assignment Date</span>
+                        <input type="date" id="assignDate" placeholder="Enter assignment date" >
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Deadline</span>
+                        <input type="date" id="deadline" placeholder="Enter deadline">
+                    </div>
+                </div>
+                <div class="control-buttons">
+                    <button type="button" id="save" class="button" onclick="saveData()" disabled>Save</button>
+                    <button type="button" id="update" class="button" onclick="updateData()" disabled>Update</button>
+                    <button type="button" id="reset" class="button" onclick="resetData()" disabled>Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
