@@ -1,8 +1,8 @@
 let jpdbURL = "http://api.login2explore.com:5577";
 let jpdpIRL = "/api/irl";
 let jpdpIML = "/api/iml";
-let ProjectManagementDB = "ProjectManagement";
-let pmRelationName = "pm-relation";
+let ProjectManagementDB = "COLLEGE-DB";
+let pmRelationName = "PROJECT-TABLE";
 let connToken = "90933074|-31949324126823852|90951603";
 
 
